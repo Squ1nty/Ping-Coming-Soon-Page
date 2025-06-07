@@ -17,13 +17,13 @@
     <h1 id="heading">PING.</h1>
     <p id="launchSoon">We are launching soon!</p>
     <p id="subAndNotif">Subscribe and get notified</p>
-    <div id="loginForm">
+    <form id="loginForm" novalidate>
       <div id="inputContainer">
         <input id="emailInput">
         <p id="errorText"></p>
       </div>
-      <button id="submitBtn">Notify Me</button>
-    </div>
+      <button id="submitBtn" type="submit" onclick="handleSubmit()">Notify Me</button>
+    </form>
     <img src="./images/illustration-dashboard.png">
     <div id="socialLinkContainer"></div>
     <p id="copyrightText">&copy; Copyright Ping. All rights reserved.</p>
