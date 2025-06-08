@@ -1,0 +1,15 @@
+@media(max-width: 1439px){
+  
+}
+#mainWrapper{
+  height: 100dvh;
+
+  display: grid;
+  text-align: center;
+}
+#heading{
+  margin-top: 4rem;
+}
+#illustration{
+  max-width: 100%;
+}

@@ -11,12 +11,16 @@
   <link rel="stylesheet" href="./css/general.css">
   <link rel="stylesheet" href="./css/main.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 <body>
   <main id="mainWrapper">
     <h1 id="heading">PING.</h1>
-    <p id="launchSoon">We are launching soon!</p>
+    <p id="launchSoon">We are launching <span id="soonSpan">soon!</span></p>
     <p id="subAndNotif">Subscribe and get notified</p>
     <form id="emailForm" novalidate>
       <div id="inputContainer">
@@ -25,7 +29,7 @@
       </div>
       <button id="submitBtn" type="submit">Notify Me</button>
     </form>
-    <img src="./images/illustration-dashboard.png">
+    <img id="illustration" src="./images/illustration-dashboard.png">
     <div id="socialLinkContainer"></div>
     <p id="copyrightText">&copy; Copyright Ping. All rights reserved.</p>
   </main>
