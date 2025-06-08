@@ -1,7 +1,10 @@
-@media(max-width: 1439px){
+@media(max-width: 767px){
   #emailForm{
     flex-direction: column;
   }
+}
+@media(min-width: 768px){
+  
 }
 main{
   height: 100dvh;
