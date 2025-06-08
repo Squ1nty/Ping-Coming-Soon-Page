@@ -1,0 +1,9 @@
+#errorText.errorState{
+  color: hsl(354, 100%, 66%);
+  font-size: 0.5rem;
+
+  margin-top: 0.25rem;
+}
+#emailInput.errorState{
+  border-color: hsl(354, 100%, 66%);
+}
