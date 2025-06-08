@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="./css/successState.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/general.css">
   <link rel="stylesheet" href="./css/main.css">
@@ -17,12 +18,12 @@
     <h1 id="heading">PING.</h1>
     <p id="launchSoon">We are launching soon!</p>
     <p id="subAndNotif">Subscribe and get notified</p>
-    <form id="loginForm" novalidate>
+    <form id="emailForm" novalidate>
       <div id="inputContainer">
-        <input id="emailInput">
-        <p id="errorText"></p>
+        <input id="emailInput" type="email" placeholder="example@email.com" required>
+        <label id="errorText" for="emailInput"></label>
       </div>
-      <button id="submitBtn" type="submit" onclick="handleSubmit()">Notify Me</button>
+      <button id="submitBtn" type="submit">Notify Me</button>
     </form>
     <img src="./images/illustration-dashboard.png">
     <div id="socialLinkContainer"></div>
