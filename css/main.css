@@ -1,10 +1,45 @@
-@media(max-width: 767px){
+@media(max-width: 499px){
+  #subAndNotif{
+    margin-top: 1rem;
+    font-size: 0.55rem;
+  }
   #emailForm{
     flex-direction: column;
+    align-items: center;
+  }
+  #emailInput{
+    width: 100%;
+  }
+  #inputContainer{
+      width: 100%;
+  }
+  #submitBtn{
+    width: 100%;
+    margin-top: 0.5rem;
   }
 }
-@media(min-width: 768px){
-  
+@media(min-width: 500px){
+  main{
+    max-width: 500px;
+  }
+  #launchSoon, #soonSpan{
+    font-size: 2rem;
+  }
+  #subAndNotif{
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+  }
+  #emailForm{
+    gap: 1rem;
+    align-items: baseline;
+  }
+  #inputContainer{
+    width: 65%;
+  }
+  #submitBtn{
+    margin-top: 0;
+    width: 35%;
+  }
 }
 main{
   height: 100dvh;
@@ -40,10 +75,6 @@ main{
   font-weight: 700;
   color: hsl(209, 33%, 12%);
 }
-#subAndNotif{
-  margin-top: 1rem;
-  font-size: 0.55rem;
-}
 #emailForm{
   margin-top: 1.5rem;
   box-sizing: border-box;
@@ -51,12 +82,9 @@ main{
 
   display: flex;
 
-  align-items: center;
   justify-content: center;
 }
 #inputContainer{
-  width: 100%;
-
   display: flex;
   flex-direction: column;
 
@@ -77,9 +105,6 @@ main{
   color: hsl(223, 100%, 88%);
 }
 #submitBtn{
-  margin-top: 0.5rem;
-  width: 100%;
-
   background-color: hsl(223, 87%, 63%);
   color: white;
   font-weight: 600;

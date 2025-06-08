@@ -1,3 +1,9 @@
+@media(max-width: 499px){
+  #errorText.errorState{
+    margin-bottom: 1rem;
+  }
+}
+
 #errorText.errorState{
   color: hsl(354, 100%, 66%);
   font-size: 0.5rem;
